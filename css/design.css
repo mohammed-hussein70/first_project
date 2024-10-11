@@ -3,6 +3,7 @@
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "work sans", sans-serif;
@@ -81,6 +82,7 @@ body {
 }
 .header .links {
   position: relative;
+  cursor: pointer;
 }
 .header .links:hover .icon span:nth-child(2) {
   width: 100%;
@@ -127,7 +129,10 @@ body {
   right: 5px;
   top: -20px;
 }
-.header .links:hover ul {
+/* .header .links:hover ul {
+  display: block;
+} */
+.hidden {
   display: block;
 }
 
@@ -140,6 +145,7 @@ body {
 }
 .header .links ul li a:hover {
   padding: 25px;
+  font-weight: bold;
 }
 .header .links ul li:not(:last-child) a {
   border-bottom: 2px solid #bbb;
