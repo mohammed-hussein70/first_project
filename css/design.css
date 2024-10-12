@@ -116,7 +116,7 @@ body {
   right: 0;
   min-width: 200px;
   top: calc(100% + 15px);
-  display: none;
+  /* display: none; */
   z-index: 1;
 }
 .header .links ul::before {
@@ -128,9 +128,9 @@ body {
   right: 5px;
   top: -20px;
 }
-.header .links:hover ul {
+/* .header .links:hover ul {
   display: block;
-}
+} */
 
 .header .links ul li a {
   display: block;
